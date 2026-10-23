@@ -1,12 +1,14 @@
 /target
-.env
 *.optimized.wasm
 .stellar/
 **/test_snapshots/
 **/node_modules/
+temp_auto_push.bat
 **/dist/
-**/.env
 **/.env.local
 **/*.sqlite
 **/*.sqlite-shm
 **/*.sqlite-wal
+.gitignore
+branch_structure.json
+config.bat
